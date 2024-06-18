@@ -1,0 +1,12 @@
+SELECT c.NAME AS CLIENT_NAME,
+       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +
+       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNT
+FROM project p
+         JOIN client c ON c.ID = p.CLIENT_ID
+WHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +
+      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (
+          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +
+                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))
+          FROM project
+      );
+
