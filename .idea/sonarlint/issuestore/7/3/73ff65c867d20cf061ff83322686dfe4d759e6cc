@@ -1,6 +1,9 @@
 
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8³õÿÏˆ2J$5e8f030f-ff80-412f-a803-24e271c7472a
-r	java:S106"+Replace this use of System.out by a logger.(Œü©üÿÿÿÿ8ºõÿÏˆ2J$8dc1970b-1c8b-4723-b228-99f6d3298b04
-~	java:S125"<This block of commented-out lines of code should be removed.(‡……8µ…ÆĞˆ2J$87f0863a-debd-40e8-94a8-a71ed684aeef
+
+java:S1854	"<Remove this useless assignment to local variable "database".(¨‘ì8¢øõĞˆ2J$23ebaa79-b50b-469e-acdb-45ffa330ccdf
+p
+java:S1481	"-Remove this unused "database" local variable.(¨‘ì8¤øõĞˆ2J$4575eb2c-7557-4bca-826b-532ccd614980
+[
+java:S1128">Remove this unused import 'org.example.service.ClientService'.(É¶÷8‘÷Ğˆ2
 Q
-java:S1128"/Remove this unused import 'org.example.entity'.(øˆ¡’ûÿÿÿÿ8‘ÃâĞˆ2
+java:S1128"/Remove this unused import 'org.example.entity'.(øˆ¡’ûÿÿÿÿ8‘÷Ğˆ2

@@ -60,7 +60,7 @@ public class ClientService {
     }
 
     public void setName(long id, String name) throws Exception {
-
+        validateName(name);
         updateNameSt.setString(1,name);
         updateNameSt.setLong(2,id);
         updateNameSt.executeUpdate();
