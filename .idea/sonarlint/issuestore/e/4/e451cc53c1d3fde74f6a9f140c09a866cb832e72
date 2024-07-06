@@ -1,10 +1,0 @@
-
-R
-java:S1854"<Remove this useless assignment to local variable "database".(¨‘ì
-C
-java:S1481"-Remove this unused "database" local variable.(¨‘ì
-E	java:S106"+Replace this use of System.out by a logger.(Š¶¸Ãÿÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(¦òíÕ
-E	java:S106"+Replace this use of System.out by a logger.(îôˆõøÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ğŸÌÍÿÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ú¦Êúÿÿÿÿ

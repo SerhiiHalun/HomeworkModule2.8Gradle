@@ -1,0 +1,6 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8³õÿÏˆ2J$5e8f030f-ff80-412f-a803-24e271c7472a
+r	java:S106"+Replace this use of System.out by a logger.(Œü©üÿÿÿÿ8ºõÿÏˆ2J$8dc1970b-1c8b-4723-b228-99f6d3298b04
+~	java:S125"<This block of commented-out lines of code should be removed.(‡……8µ…ÆĞˆ2J$87f0863a-debd-40e8-94a8-a71ed684aeef
+Q
+java:S1128"/Remove this unused import 'org.example.entity'.(øˆ¡’ûÿÿÿÿ8‘ÃâĞˆ2

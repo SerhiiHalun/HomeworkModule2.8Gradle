@@ -1,0 +1,18 @@
+
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$13b76e0b-3bfd-4274-89c4-2f3a8d0fee8f
+†	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$8a73aa9b-1a5b-42c7-a844-b2bc2b4d1bfa
+†	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$f196febc-9668-4610-8371-92574b43d432
+†	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$94120aaa-21dc-424b-9150-56a2d6d5bc12
+†	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$a7a4b437-072d-437e-a262-6bcb2fbb7685
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ù‹¢Ëˆ2
+q
+java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ù‹¢Ëˆ2
+q
+java:S2095W"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ù‹¢Ëˆ2
+q
+java:S2095F"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ù‹¢Ëˆ2
+q
+java:S2095$"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ðúÿÿÿÿ8ù‹¢Ëˆ2
+v
+java:S1118":Add a private constructor to hide the implicit public one.(ŒãÆ©J$098c8970-990c-4a3f-8d0a-3f5d2719f689

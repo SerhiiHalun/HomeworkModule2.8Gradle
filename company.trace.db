@@ -1,3 +1,103 @@
-2024-06-18 19:19:36.410496+03:00 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PROJECT" not found (this database is empty); SQL statement:
-SELECT c.NAME AS CLIENT_NAME,        (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNT FROM project p          JOIN client c ON c.ID = p.CLIENT_ID WHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (           SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))           FROM project       );   [42104-224]
+2024-06-19 01:39:14.682396+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-19 01:45:00.650961+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:21:25.996909+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:27:31.682253+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:51:42.537130+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:52:44.056791+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:53:18.592083+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:53:46.823658+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:54:16.703162+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:54:41.527646+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:55:37.204427+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:56:03.326326+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 22:56:11.810689+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 23:06:35.506759+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 23:07:12.879341+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 23:07:34.156444+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 23:07:43.353045+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-06-27 23:09:05.350960+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-224]
+2024-07-06 22:37:25.382027+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "maxId" не найден
+Column "maxId" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getLong(JdbcResultSet.java:745)
+	at org.example.service.ClientService.create(ClientService.java:33)
+	at org.example.query_entity.Main.main(Main.java:17)
+2024-07-06 22:38:58.341684+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "maxId" не найден
+Column "maxId" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getLong(JdbcResultSet.java:745)
+	at org.example.service.ClientService.create(ClientService.java:33)
+	at org.example.query_entity.Main.main(Main.java:17)
+2024-07-06 22:41:11.917300+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "maxId" не найден
+Column "maxId" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getLong(JdbcResultSet.java:745)
+	at org.example.service.ClientService.create(ClientService.java:33)
+	at org.example.query_entity.Main.main(Main.java:17)
+2024-07-07 00:43:50.703507+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Параметр "#2" не установлен
+Parameter "#2" is not set; SQL statement:
+UPDATE client SET name = ? WHERE id = ? [90012-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:207)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:159)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at org.example.service.ClientService.setName(ClientService.java:62)
+	at org.example.query_entity.Main.main(Main.java:19)
